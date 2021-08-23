@@ -1,0 +1,48 @@
+.home{
+    margin: 0;
+
+    padding: 0;
+    flex: 4;
+    margin-top: 30px;
+    /* background-image: url('../Assets/bg.png'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 370px;
+    overflow-y: hidden;
+}
+
+.homeWidgets{
+    display: flex;
+    /* flex-direction: column; */
+    margin: 20px;
+}
+
+.Fi{
+    margin-right: 20px;
+}
+
+@media screen and (max-width:900px) {
+    .home{
+        z-index: 1;
+        float: left;
+        clear: left;
+        margin-top: 80px;
+        margin-left: -76px;
+    }
+    .homeWidgets-m{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .wsm{
+        float: left;
+        /* width: 80%; */
+    }
+
+    .wlg{
+        float: left;
+        clear: left;
+    }
+}

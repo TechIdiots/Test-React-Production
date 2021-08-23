@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.featured {
+    font-family: 'Roboto', sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.fl{
+    text-decoration: none;
+}
+
+.featuredItem {
+  flex: 1;
+  margin: 0px 20px;
+  padding: 30px;
+  border-radius: 10px;
+  width: 60%;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(35px);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.featuredTitle{
+    font-size: 20px;
+}
+
+.featuredMoneyContainer{
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.featuredMoney{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.featuredMoneyRate{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.featuredIcon{
+    font-size: 14px;
+    margin-left: 5px;
+    color: green;
+}
+
+.featuredIcon.negative{
+    color: red;
+}
+
+.featuredSub{
+    font-size: 15px;
+    color: gray;
+}
+
+@media screen and (max-width: 900px){
+    .featured-m{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+    }
+
+    .fl{
+        width: 86%;
+        margin-right: 20px;
+    }
+
+    .featuredItem-m{
+        float: left;
+        clear: left;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+    
+}
