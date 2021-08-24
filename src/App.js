@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Hellboy's React Production  
+          Gamaliel React Production  
           Server 
         </p>
         
