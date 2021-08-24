@@ -1,9 +1,15 @@
-import { useState } from "react";
+import './App.css';
 
 function App() {
-
   return (
-    <div>Production Server</div>
+    <div className="App">
+      <header className="App-header">
+        <p>
+          Hellboy's React Production Server
+        </p>
+        
+      </header>
+    </div>
   );
 }
 
